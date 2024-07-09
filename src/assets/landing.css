@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.header{
+    display: flex;
+    padding: 4em;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(232, 235, 248, 1);
+}
+
+.section-slide{
+    display:flex;
+    justify-content: space-between;
+    padding: 1em 4em;
+    background-color:  rgba(20, 27, 52, 1);
+    color: white;
+}
+
+.section-slide > div{
+    display: flex;
+    align-items: center;
+    animation: marquee 10s linear infinite;
+}
+
+.section-slide span{
+    padding-right: 10px;
+}
+
+.slide{
+    padding-right: 10px;
+}
+
+@keyframes marquee{
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.deals{
+    background-color: white;
+}
+
+.deals-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 6em;
+}
+
+.deals-top button{
+    padding: 5px;
+    border-radius: 2em;
+    border: 1px solid gray;
+}

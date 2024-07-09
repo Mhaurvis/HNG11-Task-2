@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(20, 27, 52, 1);
+    color: white;
+    padding: 2em 6em;
+}
+
+.navlinks ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlinks ul li, a{
+    padding-right: 10px;
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+    list-style-type: none;
+}

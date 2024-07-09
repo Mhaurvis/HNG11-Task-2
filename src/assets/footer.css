@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 2em 6em;
+    background-color: rgb(20, 27, 52);
+    color: white;
+}
+
+.footSide{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    align-items: center;
+}
