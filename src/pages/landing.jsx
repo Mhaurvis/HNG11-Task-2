@@ -80,6 +80,7 @@ function Landing(){
                   <p>K-swiss Sneakers 11</p>
                   <p>40 items left</p>
                   <p>$50,000</p>
+                  <span className="fas fa-circle-plus"></span>
                 </div>
               </div>
 
@@ -91,6 +92,7 @@ function Landing(){
                   <p>Nike Black Sneakers</p>
                   <p>10 items left</p>
                   <p>$100,000</p>
+                  <span className="fas fa-circle-plus"></span>
                 </div>
               </div>
 
@@ -102,6 +104,7 @@ function Landing(){
                   <p>Puma Train Snickers</p>
                   <p>5 items left</p>
                   <p>$150,000</p>
+                  <span className="fas fa-circle-plus"></span>
                 </div>
               </div>
 
@@ -113,6 +116,7 @@ function Landing(){
                   <p>Nike Puma Sneakers</p>
                   <p>10 items left</p>
                   <p>$40,000</p>
+                  <span className="fas fa-circle-plus"></span>
                 </div>
               </div>
 
@@ -124,6 +128,7 @@ function Landing(){
                   <p>Nike Sports Sneakers</p>
                   <p>5 items left</p>
                   <p>$70,000</p>
+                  <span className="fas fa-circle-plus"></span>
                 </div>
               </div>
 
@@ -135,6 +140,7 @@ function Landing(){
                   <p>Nike Snickers 22</p>
                   <p>2 items left</p>
                   <p>$200,000</p>
+                  <span className="fas fa-circle-plus"></span>
                 </div>
               </div>
 
@@ -146,6 +152,7 @@ function Landing(){
                   <p>Fashion Snickers 11</p>
                   <p>20 items left</p>
                   <p>$40,000</p>
+                  <span className="fas fa-circle-plus"></span>
                 </div>
               </div>
 
@@ -157,6 +164,7 @@ function Landing(){
                   <p>Encap Sneakers N</p>
                   <p>7 items left</p>
                   <p>$350,000</p>
+                  <span className="fas fa-circle-plus"></span>
                 </div>
               </div>
 
@@ -168,17 +176,7 @@ function Landing(){
                   <p>Fila Sneakers White</p>
                   <p>3 items left</p>
                   <p>$500,000</p>
-                </div>
-              </div>
-
-              <div className="shoe-card-1">
-                <div className="card-1-head">
-                  <img src={shoe10} width={250} height={180} alt="" />
-                </div>
-                <div className="card-1-body">
-                  <p>Puma Sneakers</p>
-                  <p>9 items left</p>
-                  <p>$50,000</p>
+                  <span className="fas fa-circle-plus"></span>
                 </div>
               </div>
 
@@ -187,9 +185,22 @@ function Landing(){
                   <img src={shoe3} alt="" />
                 </div>
                 <div className="card-1-body">
+                  <p>Puma Sneakers</p>
+                  <p>9 items left</p>
+                  <p>$50,000</p>
+                  <span className="fas fa-circle-plus"></span>
+                </div>
+              </div>
+
+              <div className="shoe-card-1">
+                <div className="card-1-head">
+                  <img src={shoe10} width={250} height={180} alt="" />
+                </div>
+                <div className="card-1-body">
                   <p>Coloured Nike</p>
                   <p>2 items left</p>
                   <p>$50,000</p>
+                  <span className="fas fa-circle-plus"></span>
                 </div>
               </div>
 
@@ -201,6 +212,7 @@ function Landing(){
                   <p>K-swiss Sneakers 11</p>
                   <p>40 items left</p>
                   <p>$50,000</p>
+                  <span className="fas fa-circle-plus"></span>
                 </div>
               </div>
 
