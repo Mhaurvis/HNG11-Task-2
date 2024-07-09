@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+
 .header{
     display: flex;
     padding: 4em;
@@ -54,4 +55,29 @@
     padding: 5px;
     border-radius: 2em;
     border: 1px solid gray;
+}
+
+.shopNow{
+    padding: 4em;
+}
+
+.shoe-section{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.shoe-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    flex-direction: row;
+}
+
+.shoe-list > div{
+    line-height: 6px;
+}
+
+.shoe-list .card-1-body  p:nth-child(1), p:nth-child(3){
+    font-weight: bold;
+    font-family: arial;
 }
