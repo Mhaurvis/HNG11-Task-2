@@ -23,7 +23,7 @@ function Landing(){
         <div className="header">
           <div>
             <p>Step Lightly</p>
-            <p style={{fontSize: '50px', fontWeight: '600'}}>Nice Shoes that Reflect Your Personality</p>
+            <p style={{fontSize: '50px', fontWeight: '600', fontFamily: 'arial'}}>Nice Shoes that Reflect Your Personality</p>
             <p>Step lightly: sustainable footwear for every step. Discover stylish and comfortable shoes</p>
             <button>Shop now <span className="fas fa-circle-arrow-right"></span></button>
           </div>
@@ -54,16 +54,16 @@ function Landing(){
 
         <div className="deals">
           <div className="deals-top">
-            <p style={{fontSize: '25px', fontWeight: 'bold', fontFamily: 'arial'}}>Todays Best Deals!</p>
+            <p style={{fontSize: '30px', fontWeight: 'bold', fontFamily: 'arial'}}>Todays Best Deals!</p>
             <button>Ends in 12h: 10m: 10s</button>
           </div>
           <div></div>
         </div>
 
         <div className="shopNow">
-          <div style={{textAlign: 'center'}}>
-            <p>Shop Now, Turn Heads Later</p>
-            <p>Don't wait to upgrade your wardrobe! Grab your favourites now and be ready to turn heads wherever you go</p>
+          <div style={{textAlign: 'center', marginBottom: '4em'}}>
+            <p style={{fontSize: '30px', fontWeight: 'bold', fontFamily: 'arial'}}>Shop Now, Turn Heads Later</p>
+            <p style={{fontSize: '18px', color: 'gray'}}>Don't wait to upgrade your wardrobe! Grab your favourites now and be ready to turn heads wherever you go</p>
           </div>
 
           <div className="shoe-section">

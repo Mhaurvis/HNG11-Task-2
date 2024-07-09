@@ -96,5 +96,9 @@
     position: absolute;
     cursor: pointer;
     top: 20px;
-    right: 0;
+    right: -10px;
+}
+
+.card-1-body span:active{
+    color: red;
 }
