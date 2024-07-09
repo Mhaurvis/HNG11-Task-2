@@ -9,7 +9,18 @@
     padding: 4em;
     justify-content: space-between;
     align-items: center;
+    line-height:1em;
     background-color:rgba(232, 235, 248, 1);
+}
+
+.head-btn{
+    background-color: rgba(20, 27, 52, 1) ;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    width: 12em;
+    border: 1px solid white;
+    border-radius: 0.6em;
 }
 
 .section-slide{
@@ -57,11 +68,33 @@
 .deals-top button{
     padding: 5px;
     border-radius: 2em;
-    border: 1px solid gray;
+    border: 1px solid white;
+    background-image: linear-gradient(to right, rgb(233, 149, 149), rgb(185, 4, 4));
+    color: white;
 }
 
 .shopNow{
     padding: 4em;
+}
+
+.shoe-filter{
+    background-color: white;
+    height: 80vh;
+    position: relative;
+    color: rgba(20, 27, 52, 1);
+    font-size: 15px;
+    border-radius: 1em;
+    padding: 10px;
+}
+
+/* .shoe-filter input:checked{
+    color: rgba(20, 27, 52, 1);
+} */
+
+.shoe-filter span{
+    position: absolute;
+    right: 0;
+    padding-right: 5px;
 }
 
 .shoe-section{
@@ -101,4 +134,19 @@
 
 .card-1-body span:active{
     color: red;
+}
+
+.prevNext{
+    margin-top: 2em;
+}
+
+.prevNext button{
+    margin-right: 10px;
+    color:rgba(20, 27, 52, 1) ;
+}
+
+.prevNext button:hover{
+    background-color:rgba(20, 27, 52, 1);
+    color: white;
+    border: 1px solid white;
 }
