@@ -1,0 +1,89 @@
+.salesHead{
+    background-color: rgb(20, 27, 52);
+    color: white;
+}
+
+.sales-head-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 10em;
+}
+
+.shopNow{
+    padding: 4em;
+}
+
+.shoe-filter{
+    background-color: white;
+    height: 73vh;
+    position: relative;
+    color: rgba(20, 27, 52, 1);
+    font-size: 15px;
+    border-radius: 1em;
+    padding: 10px;
+}
+
+/* .shoe-filter input:checked{
+    color: rgba(20, 27, 52, 1);
+} */
+
+.shoe-filter span{
+    position: absolute;
+    right: 0;
+    padding-right: 15px;
+}
+
+.shoe-section{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 4em;
+}
+
+.shoe-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    flex-direction: row;
+}
+
+.shoe-list > div{
+    line-height: 10px;
+    background-color: white;
+    padding: 5px;
+}
+
+.shoe-list .card-1-body  p:nth-child(1), p:nth-child(3){
+    font-weight: bold;
+    font-family: arial;
+}
+
+.card-1-body{
+    position: relative;
+}
+
+.card-1-body span{
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    right: -10px;
+}
+
+.card-1-body span:active{
+    color: red;
+}
+
+.prevNext{
+    margin-top: 2em;
+}
+
+.prevNext button{
+    margin-right: 10px;
+    color:rgba(20, 27, 52, 1) ;
+}
+
+.prevNext button:hover{
+    background-color:rgba(20, 27, 52, 1);
+    color: white;
+    border: 1px solid white;
+}

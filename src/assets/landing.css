@@ -79,7 +79,7 @@
 
 .shoe-filter{
     background-color: white;
-    height: 80vh;
+    height: 73vh;
     position: relative;
     color: rgba(20, 27, 52, 1);
     font-size: 15px;
@@ -94,7 +94,7 @@
 .shoe-filter span{
     position: absolute;
     right: 0;
-    padding-right: 5px;
+    padding-right: 15px;
 }
 
 .shoe-section{
