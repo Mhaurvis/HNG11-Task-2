@@ -82,10 +82,11 @@
     height: 73vh;
     position: relative;
     color: rgba(20, 27, 52, 1);
-    font-size: 15px;
+    font-size: 14px;
+    font-family: arial;
     border-radius: 1em;
     padding: 10px;
-}
+} 
 
 /* .shoe-filter input:checked{
     color: rgba(20, 27, 52, 1);

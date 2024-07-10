@@ -17,13 +17,13 @@ function Navbar(){
             <div className="navlinks">
                 <ul>
                     <a style={{fontSize: '36px', fontWeight: 'bold', paddingRight: '40px'}} href="/">FOOT FASHION</a>            
-                    <li><NavLink to="">SHOP</NavLink></li>
+                    <li><NavLink to="/carts">CART</NavLink></li>
                     <li><NavLink to="/sales">SALES</NavLink></li>
                 </ul>
             </div>
-            <div>
-                <span style={{paddingRight: '20px'}} className="fas fa-search fa-2x"></span>
-                <span className="fas fa-cart-shopping fa-2x"></span>
+            <div className='navFont'>
+                <span style={{paddingRight: '20px'}} className="fas fa-search"></span>
+                <span className="fas fa-cart-shopping"></span>
             </div>
        </nav>
     )

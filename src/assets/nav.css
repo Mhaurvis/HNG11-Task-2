@@ -5,7 +5,15 @@ nav{
     align-items: center;
     background-color: rgba(20, 27, 52, 1);
     color: white;
-    padding: 2em 6em;
+    padding: 0 6em;
+}
+
+.navFont{
+    cursor: pointer;
+}
+
+.navFont span{
+    font-size: 20px;
 }
 
 .navlinks ul{

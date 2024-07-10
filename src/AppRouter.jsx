@@ -1,7 +1,7 @@
 import React from "react";
 import Landing from "./pages/landing";
 import Sales from "./pages/sales";
-import Contact from "./pages/contact";
+import Carts from "./pages/carts";
 import { Routes, Route } from "react-router-dom";
 
 function AppRouter(){
@@ -9,7 +9,7 @@ function AppRouter(){
             <Routes>
                 <Route exact path="/" Component={Landing}></Route>
                 <Route path="/sales" Component={Sales}></Route>
-                <Route path="/contact" Component={Contact}></Route>
+                <Route path="/carts" Component={Carts}></Route>
             </Routes>
     )
 }
