@@ -22,7 +22,7 @@ function Landing(){
 
         <div className="header">
           <div className="header-head-text">
-            <p>Step Lightly</p>
+            <p style={{fontSize: '1.3em', fontWeight: 'bold', fontFamily: 'arial'}}>Step Lightly</p>
             <p style={{fontSize: '50px', fontWeight: '600', fontFamily: 'arial', lineHeight: '60px'}}>Nice Shoes that Reflect Your Personality</p>
             <p>Step lightly: sustainable footwear for every step. Discover stylish and comfortable shoes</p>
             <button className="head-btn">Shop now <span style={{paddingLeft: '6px'}} className="fas fa-circle-arrow-right"></span></button>
@@ -58,6 +58,11 @@ function Landing(){
             <button className="deal-btn">Ends in 12h: 10m: 10s</button>
           </div>
           <div></div>
+
+          <div className="showFilterOnMobile">
+            <button className="filterButton">Filter  <span className="fa fa-filter"></span></button>
+          </div>
+
         </div>
 
         <div className="shopNow">

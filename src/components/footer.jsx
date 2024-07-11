@@ -5,7 +5,7 @@ function Footer(){
     return(
         <div className="footer-main">
             <div className="footer">
-                <div>
+                <div className="footerMainText">
                     <p style={{fontSize: '36px', fontWeight: 'bold', fontFamily: 'Arial'}}>FOOT FASHION</p>
                     <p>Sustainable footwear for every step. Discover <br /> stylish and comfortable shoes</p>
                     <span style={{paddingRight: '10px'}} className="fab fa-instagram fa-2x"></span><span className="fab fa-twitter fa-2x"></span>
@@ -25,7 +25,7 @@ function Footer(){
                 </div>
             </div>
             <div className="copyright">
-            <p style={{textAlign: 'center'}}>&copy; 2024 FootFashion. All rights reserved</p>
+            <p style={{textAlign: 'center', marginTop: '4em'}}>&copy; 2024 FootFashion. All rights reserved</p>
             </div>
          </div>
     )

@@ -13,6 +13,11 @@
     background-color:rgba(232, 235, 248, 1);
 }
 
+.header img{
+    max-width: 100%;
+    margin-top: 3em;
+}
+
 .head-btn{
     background-color: rgba(20, 27, 52, 1) ;
     color: white;
@@ -56,6 +61,7 @@
 
 .deals{
     background-color: white;
+    position: relative;
 }
 
 .deals-top{
@@ -71,6 +77,21 @@
     border: 1px solid white;
     background-image: linear-gradient(to right, rgb(233, 149, 149), rgb(185, 4, 4));
     color: white;
+}
+
+.showFilterOnMobile{
+    position: absolute;
+    /* display: none; */
+    right: 0;
+    bottom: 0;
+}
+
+.showFilterOnMobile button{
+    padding: 1em 3em;
+    background-color:rgba(20, 27, 52, 1);
+    color: white;
+    border: 1px solid white;
+    border-radius: 1em;
 }
 
 .shopNow{
@@ -150,4 +171,28 @@
     background-color:rgba(20, 27, 52, 1);
     color: white;
     border: 1px solid white;
+}
+
+@media screen and (max-width: 1200px){
+    .shoe-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-wrap: nowrap;
+    }
+
+    .shoe-filter{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .header{
+        margin-top: 2em;
+        flex-wrap: wrap;
+        padding: 2em;
+    }
+
+    .section-slide{
+        display: none;
+    }
 }

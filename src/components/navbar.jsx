@@ -13,19 +13,24 @@ function Navbar(){
 
 
     return(
+      <div className="nav-container">
        <nav>
-            <div className="navlinks">
-                <ul>
-                    <a style={{fontSize: '36px', fontWeight: 'bold', paddingRight: '40px'}} href="/">FOOT FASHION</a>            
-                    <li><NavLink to="/carts">CART</NavLink></li>
-                    <li><NavLink to="/sales">SALES</NavLink></li>
-                </ul>
-            </div>
-            <div className='navFont'>
-                <span style={{paddingRight: '20px'}} className="fas fa-search"></span>
-                <span className="fas fa-cart-shopping"></span>
-            </div>
+         
+            <button style={{backgroundColor: 'rgba(20, 27, 52, 1)'}} className='navbar-toggle' onClick={toggleNavbar}><span className='fa fa-bars'></span></button>
+              <div className="navlinks">
+                  <ul className={`navbar-menu ${isOpen ? 'active' :''}`}>
+                      <a style={{fontSize: '36px', fontWeight: 'bold', paddingRight: '40px'}} href="/">FOOT FASHION</a>            
+                      <li className='navbar-item'><NavLink to="/carts">CART</NavLink></li>
+                      <li className='navbar-item'><NavLink to="/sales">SALES</NavLink></li>
+                  </ul>
+              </div>
+              <div className='navFont'>
+                  <span style={{paddingRight: '20px'}} className="fas fa-search"></span>
+                  <span className="fas fa-cart-shopping"></span>
+              </div>
+          
        </nav>
+      </div>
     )
 };
 

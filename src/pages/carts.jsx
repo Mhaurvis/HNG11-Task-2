@@ -16,20 +16,20 @@ function Carts(){
                <p><span className="fas fa-caret-left"></span> Continue Shopping</p>
 
                 <div className="carttext" >
-                    <p style={{textAlign: 'center', fontSize: '2.3em', fontWeight: 'bold', fontFamily: 'arial'}}>My Carts <span style={{color: 'gray'}}>(3 items)</span></p>
+                    {/* <p style={{textAlign: 'center', fontSize: '2.3em', fontWeight: 'bold', fontFamily: 'arial'}}>My Carts <span style={{color: 'gray'}}>(3 items)</span></p> */}
                 </div>
             </div>
 
             <div className="cartsection">
                 <div>
                     <div>
-                        <div>
+                        <div className="cart1">
                             <img src={shoe5} alt="" />
                             <p>Nike Puma Sneakers</p>
                             <span>Black lasted edition</span>
-                            <div>
-                                <div>Size</div>
-                                <div>2</div>
+                            <div className="heyy">
+                                <div>Size: <input type="" /></div>
+                                <div>Quantity: <input type="text" /></div>
                             </div>
                         </div>
                         <div>2</div>
@@ -44,7 +44,13 @@ function Carts(){
                         <img src={shoe10} width={243} height={180} alt="" />
                     </div>
                 </div>
-                <div>2</div>
+
+                <div>
+                    <p>Order Summary</p>
+                    <span>Apply Promo code</span> <br />
+                    <input type="text" />
+                </div>
+
             </div>
 
             <Footer />
